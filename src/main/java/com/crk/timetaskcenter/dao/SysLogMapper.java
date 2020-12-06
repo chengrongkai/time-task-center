@@ -1,0 +1,15 @@
+package com.crk.timetaskcenter.dao;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.crk.timetaskcenter.entity.SysLog;
+
+
+/**
+ * 操作日志 Mapper
+ *
+ * @author rongkai
+ * @version V1.0
+ * @date 2020年3月18日
+ */
+public interface SysLogMapper extends BaseMapper<SysLog> {
+}
